@@ -3,11 +3,9 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# It is okay to share the secret key this time, because this application is not used in production
-# If you want to deploy this application, then you will need to reset this secret key
+
 SECRET_KEY = 'exhlfdat&vfum(-24*c2uf4wwddcp$o$9pv98=e6p^gl(-eoj'
 
-# SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '127.0.0.1:8000']
