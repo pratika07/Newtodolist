@@ -57,8 +57,9 @@ Logout page-
 5.asgiref
 6.sqlparse
 
+
 This can be installed using terminal by the following command:
-## pip install libraryname
+pip install libraryname
 
 # Contributors
 1. B.Pratika Naidu
