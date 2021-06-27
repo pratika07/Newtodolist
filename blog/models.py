@@ -20,7 +20,3 @@ class Post(models.Model):
     def get_absolute_url(self):
         return reverse('post-detail', kwargs={'pk': self.pk})
 
-# model names should be singular, for example, Post, because they represent a single object
-# fields should be written in lowercase and with underscores
-# The __str__ method defines a human-readable representation of the model in the Django admin site
-# CASCADE defines that when a user is deleted, all his/her entries are deleted as well
