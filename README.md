@@ -24,6 +24,9 @@ This is a Note Making Website for making notes with some enlisted features-
 
 # How Does it look like?
 
+![Screenshot (55)](https://user-images.githubusercontent.com/86431920/123534690-796b0b00-d73c-11eb-883a-bf7ddf52b701.png)
+
+
 
 
 
