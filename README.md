@@ -20,7 +20,7 @@ This is a Note Making Website for making notes with some enlisted features-
 
 -HTML CSS and Javascript Django template are used in frontend
 
--Python-Django is used for backend
+-Python (Django) is used for backend
 
 # How Does it look like?
 
