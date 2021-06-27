@@ -38,7 +38,9 @@ New note creation page-
 
 Note feed page-
 
-![Screenshot (26)](https://user-images.githubusercontent.com/76595511/123535010-d5369380-d73e-11eb-84e9-d989fa191860.png)
+
+
+Note update and delete page-
 
 
 
