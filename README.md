@@ -36,16 +36,18 @@ New note creation page-
 
 ![Screenshot (59)](https://user-images.githubusercontent.com/86431920/123534863-db784000-d73d-11eb-9bc3-714342b5b402.png)
 
-Note feed page-
+Notes feed page-
 
 ![Screenshot (150)](https://user-images.githubusercontent.com/80577092/123560006-4ddc3500-d7bd-11eb-8e11-c906d002412d.png)
 
-Note update and delete page-
+Notes update and delete page-
 
 ![Screenshot (151)](https://user-images.githubusercontent.com/80577092/123560013-5a608d80-d7bd-11eb-8848-06ca04795d75.png)
 ![Screenshot (152)](https://user-images.githubusercontent.com/80577092/123560014-5d5b7e00-d7bd-11eb-9266-106aada3a36c.png)
 ![Screenshot (154)](https://user-images.githubusercontent.com/80577092/123560015-60566e80-d7bd-11eb-886c-21a0fb9a8136.png)
 
+Logout page-
+![Screenshot (155)](https://user-images.githubusercontent.com/80577092/123560220-9c3e0380-d7be-11eb-99df-7901a2d39f68.png)
 
 
 
