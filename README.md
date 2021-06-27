@@ -50,15 +50,15 @@ Logout page-
 ![Screenshot (155)](https://user-images.githubusercontent.com/80577092/123560220-9c3e0380-d7be-11eb-99df-7901a2d39f68.png)
 
 # Required python libraries -
-Django
-Pillow
-whitenoise
-pytz
-asgiref
-sqlparse
+1.Django
+2.Pillow
+3.whitenoise
+4.pytz
+5.asgiref
+6.sqlparse
 
 This can be installed using terminal by the following command:
-# pip install libraryname
+## pip install libraryname
 
 # Contributors
 1. B.Pratika Naidu
