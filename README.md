@@ -49,7 +49,19 @@ Notes update and delete page-
 Logout page-
 ![Screenshot (155)](https://user-images.githubusercontent.com/80577092/123560220-9c3e0380-d7be-11eb-99df-7901a2d39f68.png)
 
+# Required python libraries -
+Django
+Pillow
+whitenoise
+pytz
+asgiref
+sqlparse
 
+This can be installed using terminal by the following command:
+# pip install libraryname
 
-
+# Contributors
+1. B.Pratika Naidu
+2. Eshita Jain
+3. Manan Rathod
 
