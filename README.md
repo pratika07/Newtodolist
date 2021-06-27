@@ -10,9 +10,9 @@ This is a Note Making Website for making notes with some enlisted features-
 
 -Delete Note
 
--User Login/Logout
-
 -User Registration
+
+-User Login/Logout
 
 # Specifications of the app
 
