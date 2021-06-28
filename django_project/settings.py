@@ -77,9 +77,9 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-gb'
 TIME_ZONE = 'Asia/Kolkata'
-USE_I18N = True # setting the default language for users, if their locale isn't known
-USE_L10N = True # enabling date/time to be displayed in a local format
-USE_TZ = True # enabling timezone support
+USE_I18N = True 
+USE_L10N = True 
+USE_TZ = True 
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
@@ -90,5 +90,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 LOGIN_REDIRECT_URL = 'blog-home'
 LOGIN_URL = 'login'
 
-# Defining a view for the CSRF error
+
 CSRF_FAILURE_VIEW = 'blog.views.csrf_failure'
