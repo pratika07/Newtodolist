@@ -26,7 +26,8 @@ This is a Note Making Website for making notes with some enlisted features-
 
 Sign up page-
 
-![Screenshot (55)](https://user-images.githubusercontent.com/86431920/123534690-796b0b00-d73c-11eb-883a-bf7ddf52b701.png)
+![Screenshot (28)](https://user-images.githubusercontent.com/76595511/123612814-86612a80-d820-11eb-9576-483a961efe63.png)
+
 
 Login page-
 
