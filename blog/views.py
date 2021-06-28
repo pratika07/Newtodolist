@@ -42,7 +42,7 @@ class PostDetailView(LoginRequiredMixin, DetailView):
      context_object_name = 'posts' # the name of a context variable with the queryset results
      ordering = ['-date_posted']
      paginate_by = 20
-     # modifying the function for returning posts
+     # modifying the function for returning post
      def get_queryset(self):
          # if there is a search query in the URL parameter, then use it to filter the results
          search_query = self.request.GET.get('search', '')
