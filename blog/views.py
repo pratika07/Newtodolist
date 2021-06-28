@@ -18,7 +18,7 @@ TextField.register_lookup(Lower, "lower")
 class PostListView(LoginRequiredMixin, ListView):
     model = Post
     template_name = 'blog/home.html'
-    context_object_name = 'posts' # the name of a context variable with the queryset results
+    context_object_name = 'posts'
     ordering = ['-date_posted']
     paginate_by = 20
 
@@ -35,19 +35,18 @@ class PostDetailView(LoginRequiredMixin, DetailView):
     model = Post
 
 
-# if users are allowed to view only their own posts, not anyone else's, then leave this and the next class uncommented
+
  class PostListView(LoginRequiredMixin, ListView):
      model = Post
      template_name = 'blog/home.html'
      context_object_name = 'posts' # the name of a context variable with the queryset results
      ordering = ['-date_posted']
      paginate_by = 20
-     # modifying the function for returning post
+    
      def get_queryset(self):
-         # if there is a search query in the URL parameter, then use it to filter the results
+         
          search_query = self.request.GET.get('search', '')
-         # using Q for case-insensitive search in a MySQL database
-         # filtering for posts where the user is the author
+        
          queryset = Post.objects.filter(Q(content__lower__contains=search_query)).filter(author_id=self.request.user.id).order_by('-date_posted')
          return queryset
 
@@ -63,7 +62,7 @@ class PostDetailView(LoginRequiredMixin, DetailView):
 
 class PostCreateView(LoginRequiredMixin, CreateView):
     model = Post
-    form_class = CreateViewForm # making the class use an existing form with pre-defined validation rules
+    form_class = CreateViewForm 
     template_name = 'blog/post_create.html'
     success_url = '/'
 
@@ -100,9 +99,9 @@ def csrf_failure(request, reason=""):
             return PostUpdateView.as_view()(request)
         elif '/delete' in current_page:
             return PostDeleteView.as_view()(request)
-        # redirect to the homepage in any other case, e.g. after login
+        
         else:
             return HttpResponseRedirect('/')
-    # if there was any error in calling the respective function, then redirect to the homepage
+   
     except:
         return HttpResponseRedirect('/')
