@@ -48,6 +48,7 @@ Notes update and delete page-
 ![Screenshot (154)](https://user-images.githubusercontent.com/80577092/123560015-60566e80-d7bd-11eb-886c-21a0fb9a8136.png)
 
 Logout page-
+
 ![Screenshot (155)](https://user-images.githubusercontent.com/80577092/123560220-9c3e0380-d7be-11eb-99df-7901a2d39f68.png)
 
 # Required python libraries -
