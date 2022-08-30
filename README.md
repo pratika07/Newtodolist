@@ -26,7 +26,7 @@ This is a Note Making Website for making notes with some enlisted features-
 
 Sign up page-
 
-![Screenshot (28)]("C:\Users\ASUS\OneDrive\Desktop\123612814-86612a80-d820-11eb-9576-483a961efe63.png")
+![123612814-86612a80-d820-11eb-9576-483a961efe63](https://user-images.githubusercontent.com/80577092/187352371-c0b2a231-ae8e-429d-abfe-c5075904ba80.png)
 
 
 Login page-
