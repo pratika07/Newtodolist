@@ -35,7 +35,7 @@ Login page-
 
 New note creation page-
 
-![Screenshot (59)](https://user-images.githubusercontent.com/86431920/123534863-db784000-d73d-11eb-9bc3-714342b5b402.png)
+![123534863-db784000-d73d-11eb-9bc3-714342b5b402](https://user-images.githubusercontent.com/80577092/187352512-6949369c-c928-4ef5-9152-682dbe6589ff.png)
 
 Notes feed page-
 
